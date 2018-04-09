@@ -12,7 +12,7 @@ class Interface(object):
         self.colorTracker = ColorTracker()
         self.curses.start()
         self.currentInput = ""
-        self.outputWindow = 'main'
+        self.file = open("gmcp.log", "w", 0)
 
     def build(self, world):
         self.world = world
@@ -46,14 +46,14 @@ class Interface(object):
     def step(self, actions):
         for action in actions:
             if action[0] == "print":
-                if self.outputWindow == "map":
-                    self.screenManager.map.printString(action[1], self.colorTracker.getColor())
-                else:
-                    self.outputScreen.printString(action[1], self.colorTracker.getColor())
+                self.screenManager.printString(action[1], self.colorTracker.getColor())
             elif action[0] == "color":
                 self.colorTracker.updateColor(action[1])
             elif action[0] == "redirect":
-                self.outputWindow = action[1]
+                self.screenManager.setOutput(action[1])
+            elif action[0] == "gmcp":
+                self.file.write(str(action) + "\n")
+                self.screenManager.parseGMCP(action)
             else:
                 self.outputScreen.printString("\nunknown action: " + str(action) + "\n\n")
         self.refresh()

@@ -1,6 +1,7 @@
 from inputParser import InputParser
 from networkParser import NetworkParser
 from connection import Connection
+import json
 
 class System(object):
     def __init__(self, world):
@@ -14,6 +15,7 @@ class System(object):
     def step(self):
         self.unparsedActions = []
         for line in self.inputParser.getOutput():
+            self.unparsedActions.append(['print', "\n"])
             self.connection.sendPacket(line + "\n")
         self.connection.receive()
         while True:
@@ -31,6 +33,9 @@ class System(object):
             elif action[0] == "gmcp":
                 if action[1].find("Redirect.Window")>-1:
                     self.unparsedActions.append(["redirect", action[1].split(' ', 1)[1][1:-1]])
+                else:
+                    self.unparsedActions.append([action[0], action[1].split(' ', 1)[0], json.loads(action[1].split(' ', 1)[1])])
+
             else:
                 self.unparsedActions.append(action)
 

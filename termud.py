@@ -47,7 +47,10 @@ class Termud(object):
         try:
             self.interface.stop()
         except:
-            curses.endwin()
+            try:
+                curses.endwin()
+            except:
+                pass
         if reason:
             print reason
         exit()

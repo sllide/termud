@@ -6,7 +6,7 @@ class NetworkParser(object):
         self.negotiationRegexp = re.compile("\xFF(\xFB|\xFD|\xFC)(.)")
         self.colorRegexp = re.compile("\x1B\[((\d+)(;|))+m")
         self.numberRegexp = re.compile("\d+")
-        self.gmcpRegexp = re.compile("\xFF\xFA\xC9(.+)\xFF\xF0")
+        self.gmcpRegexp = re.compile("\xFF\xFA\xC9(.+?)\xFF\xF0")
         self.crRegexp = re.compile("\r")
 
     def parse(self, packet):
