@@ -6,6 +6,7 @@ class Connection(object):
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.socket.setblocking(False)
         self.packetBuffer = []
+        self.log = open("rawsocket", 'w', 0)
 
     def connect(self, host, port):
         try:
@@ -28,6 +29,7 @@ class Connection(object):
         except socket.error:
             pass
         if packet:
+            self.log.write("\n\nRECEIVED:\n"+packet.encode('string_escape'))
             self.packetBuffer.append(packet)
 
     def getPacket(self):
@@ -36,6 +38,7 @@ class Connection(object):
         return False
 
     def sendPacket(self, data):
+        self.log.write("\n\nSENDING:\n"+data.encode('string_escape'))
         while data:
             try:
                 sent = self.socket.send(data)

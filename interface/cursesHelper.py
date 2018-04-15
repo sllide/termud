@@ -16,10 +16,18 @@ class CursesHelper(object):
         curses.curs_set(0)
         
         self.running = True
+        self.y, self.x = self.screen.getmaxyx()
 
     def getSize(self):
-        (y, x) = self.screen.getmaxyx()
-        return (x, y)
+        return (self.x, self.y)
+
+    def isResized(self):
+        if curses.is_term_resized(self.y, self.x):
+            self.y, self.x = self.screen.getmaxyx()
+            curses.resizeterm(self.y, self.x)
+            self.screen.clear()
+            return True
+        return False
 
     def refresh(self):
         curses.doupdate()

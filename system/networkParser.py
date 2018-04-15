@@ -8,10 +8,14 @@ class NetworkParser(object):
         self.numberRegexp = re.compile("\d+")
         self.gmcpRegexp = re.compile("\xFF\xFA\xC9(.+?)\xFF\xF0")
         self.crRegexp = re.compile("\r")
+        self.goAheadRegexp = re.compile("\xFF\xF9")
+        self.handShook = False
+        self.log = open('parser', 'w', 0)
 
     def parse(self, packet):
         self.actions = []
         packet = self.crRegexp.sub('', packet)
+        packet = self.goAheadRegexp.sub('', packet)
         while True:
             negotiation = self.negotiationRegexp.search(packet)
             color = self.colorRegexp.search(packet)
@@ -25,6 +29,7 @@ class NetworkParser(object):
                 packet = packet[color.end():]
             elif gmcp and gmcp.start()  == 0:
                 self.actions.append(['gmcp', gmcp.group(1)])
+                self.log.write("\nGOT GMCP:\n"+gmcp.group(1))
                 packet = packet[gmcp.end():]
             else:
                 if packet:
@@ -39,6 +44,9 @@ class NetworkParser(object):
                     packet = packet[lowest:]
                 else:
                     break
+        if not self.handShook:
+            self.actions.append(['connected'])
+            self.handShook = True
         return self.actions
     
     def parseColor(self, match):
@@ -49,8 +57,6 @@ class NetworkParser(object):
         if mode == "\xFB":
             if feature == "\xC9": #will do gmcp
                 self.actions.append(['send', "\xFF\xFD\xC9"])
-                self.actions.append(['send', '\xFF\xFA\xC9Core.Hello {"Client":"Termud","Version":"0.1"}\xFF\xF0'])
-                self.actions.append(['send', '\xFF\xFA\xC9Core.Supports.Set ["Core 1", "Char 1", "Char.Afflictions 1", "Char.Defences 1", "Char.Items 1", "Char.Skills 1", "Comm.Channel 1", "Room 1", "Redirect 1"]\xFF\xF0'])
             else:
                 self.actions.append(['send', "\xFF\xFE"+feature])
             return

@@ -1,0 +1,570 @@
+
+Char.Name
+{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}
+
+IRE.Time.List
+{u'moonphase': u'Waning Crescent', u'hour': u'14', u'year': u'769', u'month': u'Sarapin', u'mon': u'1', u'time': u'It is early morning in Achaea.', u'daynight': u'6', u'day': u'20'}
+
+Char.StatusVars
+{u'gold': u'Gold', u'house': u'House', u'xp': u'Experience To Next Level', u'lessons': u'Lessons', u'city': u'City', u'specialisation': u'Race Specialisation', u'unread_msgs': u'Unread Messages', u'boundcredits': u'Bound Credits', u'boundmayancrowns': u'Bound Mayan Crowns', u'explorerrank': u'Explorer Rank', u'unboundcredits': u'Unbound Credits', u'class': u'Class', u'bank': u'Bank', u'target': u'Target', u'xprank': u'Achaean XP Rank', u'name': u'Name', u'level': u'Experience Level', u'gender': u'Gender', u'age': u'Age', u'race': u'Race', u'mayancrowns': u'Unbound Mayan Crowns', u'fullname': u'Full Name', u'order': u'Order', u'unread_news': u'Unread News'}
+
+Char.Status
+{u'gold': u'8350', u'house': u'The Heartwood Kin(1)', u'xp': u'99%', u'lessons': u'561', u'city': u'Eleusis (1)', u'specialisation': u'', u'unread_msgs': u'18', u'boundcredits': u'0', u'boundmayancrowns': u'0', u'explorerrank': u'a Rambler', u'unboundcredits': u'0', u'class': u'Runewarden', u'bank': u'0', u'target': u'None', u'xprank': u'1672', u'name': u'Sllide', u'level': u'43 (99%)', u'gender': u'male', u'age': u'33', u'race': u'Rajamala', u'mayancrowns': u'0', u'fullname': u'Sapling Sllide', u'order': u'(None)', u'unread_news': u'403'}
+
+Char.Skills.Groups
+[{u'name': u'Vision', u'rank': u'Inept'}, {u'name': u'Avoidance', u'rank': u'Inept'}, {u'name': u'Tattoos', u'rank': u'Inept'}, {u'name': u'Survival', u'rank': u'Inept'}, {u'name': u'Weaponry', u'rank': u'Inept'}, {u'name': u'Riding', u'rank': u'Inept'}, {u'name': u'Seafaring', u'rank': u'Inept'}, {u'name': u'Battlerage', u'rank': u'Fabled'}, {u'name': u'Runelore', u'rank': u'Novice'}, {u'name': u'Weaponmastery', u'rank': u'Skilled'}, {u'name': u'Constitution', u'rank': u'Inept'}, {u'name': u'Thermology', u'rank': u'Inept'}, {u'name': u'Frost', u'rank': u'Inept'}, {u'name': u'Antidotes', u'rank': u'Inept'}, {u'name': u'Fitness', u'rank': u'Inept'}, {u'name': u'Galvanism', u'rank': u'Inept'}, {u'name': u'Philosophy', u'rank': u'Inept'}]
+
+Comm.Channel.List
+[{u'caption': u'Newbie', u'command': u'newbie', u'name': u'newbie'}, {u'caption': u'Market', u'command': u'market', u'name': u'market'}, {u'caption': u'Eleusis', u'command': u'ct', u'name': u'ct'}, {u'caption': u'Heartwood novices', u'command': u'hnt', u'name': u'hnt'}, {u'caption': u'The Clan of Green Oak Institute', u'command': u'clt1', u'name': u'clt1'}, {u'caption': u'The Clan of New Raja Society', u'command': u'clt2', u'name': u'clt2'}]
+
+IRE.Time.List
+{u'moonphase': u'Waning Crescent', u'hour': u'14', u'year': u'769', u'month': u'Sarapin', u'mon': u'1', u'time': u'It is early morning in Achaea.', u'daynight': u'6', u'day': u'20'}
+
+Char.Afflictions.List
+[]
+
+Char.Defences.List
+[{u'name': u'mosstattoo', u'desc': u'This tattoo will passively clot your bleeding.'}]
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'attrib': u'mx', u'icon': u'guard', u'id': u'33292', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'41438', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'42264', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'54435', u'name': u'a veiled enchantress'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'61313', u'name': u'a Briar Knight'}, {u'icon': u'rune', u'id': u'200656', u'name': u'a runic totem'}, {u'attrib': u'm', u'icon': u'humanoid', u'id': u'230322', u'name': u'Vamuria, the newspaper editor'}, {u'attrib': u't', u'icon': u'rune', u'id': u'166383', u'name': u'a monolith sigil'}, {u'attrib': u't', u'icon': u'curative', u'id': u'367261', u'name': u'a lobelia seed'}, {u'attrib': u'mx', u'id': u'406360', u'name': u'a phantom sea turtle'}, {u'attrib': u'mx', u'icon': u'magical', u'id': u'151168', u'name': u'an alabaster pegasus'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8', u'name': u'The Eleusian archives', u'exits': {u'nw': 40413}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6799, u'coords': u'51,18,1,1', u'details': [u'newsroom'], u'desc': u'Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'attrib': u'mx', u'icon': u'guard', u'id': u'33292', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'41438', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'42264', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'54435', u'name': u'a veiled enchantress'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'61313', u'name': u'a Briar Knight'}, {u'icon': u'rune', u'id': u'200656', u'name': u'a runic totem'}, {u'attrib': u'm', u'icon': u'humanoid', u'id': u'230322', u'name': u'Vamuria, the newspaper editor'}, {u'attrib': u't', u'icon': u'rune', u'id': u'166383', u'name': u'a monolith sigil'}, {u'attrib': u't', u'icon': u'curative', u'id': u'367261', u'name': u'a lobelia seed'}, {u'attrib': u'mx', u'id': u'406360', u'name': u'a phantom sea turtle'}, {u'attrib': u'mx', u'icon': u'magical', u'id': u'151168', u'name': u'an alabaster pegasus'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8', u'name': u'The Eleusian archives', u'exits': {u'nw': 40413}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6799, u'coords': u'51,18,1,1', u'details': [u'newsroom'], u'desc': u'Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Comm.Channel.Text
+{u'text': u'\x1b[0;1;32m(Newbie): Malith says, "Im*."\x1b[0;37m', u'talker': u'Malith', u'channel': u'newbie'}
+
+Comm.Channel.Start
+newbie
+
+Comm.Channel.End
+newbie
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Items.List
+{u'items': [{u'attrib': u'w', u'icon': u'clothing', u'id': u'550672', u'wearslot': u'shirt', u'name': u'a blue shirt'}, {u'attrib': u'w', u'icon': u'clothing', u'id': u'357956', u'wearslot': u'feet', u'name': u'a pair of suede desert boots'}, {u'attrib': u'w', u'icon': u'clothing', u'id': u'550575', u'wearslot': u'legs', u'name': u'a pair of simple black trousers'}, {u'attrib': u'wc', u'icon': u'clothing', u'id': u'94155', u'name': u'a canvas backpack'}, {u'attrib': u'w', u'icon': u'clothing', u'id': u'375448', u'wearslot': u'jacket', u'name': u'a long gold coloured rain-coat'}, {u'attrib': u'w', u'icon': u'clothing', u'id': u'533075', u'wearslot': u'socks', u'name': u'silly thigh-high rainbow socks'}, {u'attrib': u'f', u'icon': u'potion', u'id': u'369087', u'name': u'a purple heartwood vial'}, {u'attrib': u'f', u'icon': u'potion', u'id': u'442843', u'name': u'a purple heartwood vial'}, {u'attrib': u'lL', u'icon': u'weapon', u'id': u'163192', u'name': u'a rustic, Eleusian bastard sword'}, {u'attrib': u'e', u'icon': u'food', u'id': u'84589', u'name': u'a plate of lemon chicken pasta with fresh capers'}, {u'attrib': u'e', u'icon': u'food', u'id': u'281750', u'name': u'a plate of wild-caught salmon fillet with salsa'}, {u'attrib': u'e', u'icon': u'food', u'id': u'1111', u'name': u'a plate of orange ginger glazed salmon and rice'}, {u'attrib': u'e', u'icon': u'food', u'id': u'56636', u'name': u'an oaken plate of fried acorn-shaped dough balls'}, {u'attrib': u'e', u'icon': u'food', u'id': u'242815', u'name': u'an oaken plate of fried acorn-shaped dough balls'}, {u'attrib': u'e', u'icon': u'food', u'id': u'49432', u'name': u'a bowl of elemental ice cream'}, {u'attrib': u'e', u'icon': u'food', u'id': u'275874', u'name': u'a bowl of elemental ice cream'}, {u'attrib': u'e', u'icon': u'food', u'id': u'242833', u'name': u'a bowl of elemental ice cream'}, {u'attrib': u'e', u'icon': u'food', u'id': u'188770', u'name': u'a forestal salad of edible flowers'}, {u'attrib': u'e', u'icon': u'food', u'id': u'230727', u'name': u'a forestal salad of edible flowers'}, {u'attrib': u'g', u'icon': u'rune', u'id': u'217441', u'name': u'an eye sigil'}], u'location': u'inv'}
+
+IRE.Time.Update
+{u'daynight': u'9'}
+
+Room.WrongDir
+n
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Room.WrongDir
+n
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'attrib': u'mx', u'icon': u'guard', u'id': u'33292', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'41438', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'42264', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'54435', u'name': u'a veiled enchantress'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'61313', u'name': u'a Briar Knight'}, {u'icon': u'rune', u'id': u'200656', u'name': u'a runic totem'}, {u'attrib': u'm', u'icon': u'humanoid', u'id': u'230322', u'name': u'Vamuria, the newspaper editor'}, {u'attrib': u't', u'icon': u'rune', u'id': u'166383', u'name': u'a monolith sigil'}, {u'attrib': u't', u'icon': u'curative', u'id': u'367261', u'name': u'a lobelia seed'}, {u'attrib': u'mx', u'id': u'406360', u'name': u'a phantom sea turtle'}, {u'attrib': u'mx', u'icon': u'magical', u'id': u'151168', u'name': u'an alabaster pegasus'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8', u'name': u'The Eleusian archives', u'exits': {u'nw': 40413}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6799, u'coords': u'51,18,1,1', u'details': [u'newsroom'], u'desc': u'Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'72893', u'name': u'a runic totem'}, {u'icon': u'shrine', u'id': u'538804', u'name': u'a shrine of Artemis'}, {u'attrib': u't', u'icon': u'rune', u'id': u'538859', u'name': u'a monolith sigil'}, {u'attrib': u'mdt', u'icon': u'deadbody', u'id': u'2893', u'name': u'the corpse of a diminutive fairy'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 22 7', u'name': u'Verdant courtyard', u'exits': {u'w': 6780, u'ne': 8196, u'se': 6799}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 40413, u'coords': u'51,17,2,1', u'details': [], u'desc': u'A broad, circular platform balances across the sturdy branches of a dense copse of maples, the slender beams bordered by emerald topiaries. Neatly pruned, the bushes curve into narrowing spirals. The lush, green foliage of the surrounding trees drapes across the constructed rooftops of two opposing hollows, each structure nestled within the gnarled embrace of the branches. Hanging overhead, paper lanterns cast a soft illumination upon the verdant space.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8998'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'133513', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'375842', u'name': u'a monolith sigil'}, {u'attrib': u'm', u'icon': u'magical', u'id': u'168526', u'name': u'Ellie, an iridescent cloud form'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 21 7', u'name': u'Pathway upon the Emerald Circle', u'exits': {u's': 6781, u'e': 40413, u'nw': 6769}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6780, u'coords': u'51,16,2,1', u'details': [], u'desc': u'The meandering wooden path curves gently as it leads around the magnificent Great Oak. Elegant and serene, the length of the walkway is draped with ivy vines and mistletoe boughs that create dappled green patterns of filtered light on the interwoven branches underfoot. The sounds of laughter and activity occasionally break the soft silence, drifting past on breezes carried from the Oak and the bustling Draoi Quarter to the northwest.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8996'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'151925', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'457310', u'name': u'a key-shaped sigil'}, {u'attrib': u't', u'icon': u'rune', u'id': u'543408', u'name': u'a monolith sigil'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 19 5', u'name': u'Southern Draoi Quarter', u'exits': {u'nw': 6770, u'e': 32536, u'w': 6768, u'se': 6780, u'n': 6771}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6769, u'coords': u'51,14,4,1', u'details': [], u'desc': u'A break in the canopy above the southern end of the Draoi Quarter offers a broad view of the sky with a few pleasantly puffy clouds drifting past, making the overhead scenery as lovely as that of the village below. The marketplace is open and airy, the unchecked wind swirling around the stalls, carrying the faint scents of maple from the forest outside the village. Each shop in this section of the market is hung with brightly coloured fabrics and woven items. The majority are homemade Eleusian textiles, although some expensive items are recognisable as imports from as far away as Targossas and Cyrene.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8994'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'14379', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'542958', u'name': u'a monolith sigil'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'113434', u'name': u'a red admiral butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 17 5', u'name': u'Entering Draoi Quarter', u'exits': {u'e': 6769, u'ne': 6771, u'w': 6767, u'n': 6770}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6768, u'coords': u'51,12,4,1', u'details': [], u'desc': u'A single broad limb of the massive Great Oak slopes gradually downward, forming a path toward a thick curtain of long, weighty vines. The creepers are separated and cleverly plaited in the centre, forming a tall archway with a slim wooden sign hanging from delicate gilded chains at the crest. The words "Draoi Quarter" are etched into the sign with beautiful lettering. Set into a niche near the portico is a maple post with pointed planks, directing the way to several places within the village. The marketplace beyond the arch consists of several tiers of branches leading higher into the canopy, each laden with a plethora of multicoloured baskets filled with various wares.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8998'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'191292', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'539558', u'name': u'a monolith sigil'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 15 5', u'name': u'Upon the Emerald Circle', u'exits': {u'sw': 6766, u'e': 6768, u'n': 18845}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6767, u'coords': u'51,10,4,1', u'details': [], u'desc': u"Intertwining boughs wind around the Great Oak, affording a stunning view of the bustling villages crux. The Hierophants' Square lies beyond a southwesterly tree line, and the northwestern Draoi Quarter lingers in the distance, far beyond the ropes of a short, northern bridge. Various species of tree grow along the treetop pathway and bear bright clumps of mistletoe, the colour of which lends the Emerald Circle its name. Tiny honeyeaters and vibrant hummingbirds nestle within the vegetation, happily making their homes within the safe cover of leaves and red berries."}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8996'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'87404', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'542521', u'name': u'a monolith sigil'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 13 7', u'name': u"Northern Hierophants' Square", u'exits': {u'sw': 6763, u'ne': 6767}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6766, u'coords': u'51,8,2,1', u'details': [], u'desc': u'A collection of artful wooden statues line the perimeter of the square here, each figure the ongoing effort of centuries of work. Gifted arboreal artists coax the oak branches to grow vertically, painstakingly encouraging them into the shapes of former Hierophants of Oakstone. Smaller branches near the edges of the square are propped on supports and firmly tied with strong fibres, ready to be shaped into the forms of current and future Hierophants. A larger figure, weathered and ancient, shows the face of the goddess Gaia, Her lithe figure towering above the others with arms outstretched to gather them into Her embrace.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8994'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'105719', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'181067', u'name': u'a monolith sigil'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'288419', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'335678', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'337239', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'443821', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'460812', u'name': u'an earthen elementalist'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 11 9', u'name': u"Before the Hierophants' Complex", u'exits': {u'w': 6750, u'e': 6764, u'ne': 6766, u'se': 6765}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6763, u'coords': u'51,6,0,1', u'details': [], u'desc': u'This main square of the village spreads out across interlocking boughs, creating a wide open space above the intricately woven platform. The higher branches of the trees grow further apart, allowing natural illumination to enter into the square. Filtered slightly by the occasional leaf-laden branch above the area, the light casts a dancing pattern of shadows across the vast complex. The many neighbourhoods of the village can be accessed from this central location, causing regular traffic and activity as citizens travel from one place to another.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8992/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8992'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'191668', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'113646', u'name': u'a monolith sigil'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'112873', u'name': u'a red admiral butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 9 9', u'name': u'Junction on the Oaken Way', u'exits': {u's': 6751, u'e': 6763, u'w': 6749, u'n': 6752}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6750, u'coords': u'51,4,0,1', u'details': [], u'desc': u'The heavily leafed pathway diverges at this point into three directions. Far to the east, patches of light stream through the canopy, illuminating minuscule pollen grains that hover in the air; drifting almost imperceptibly towards an unknown destination. Towards the north, a handsome bridge can be seen spanning a sea of rich-green grasses. A looming sycamore stands stoically to the south, an irregularly shaped hollow in the trunk fitted with a solid, timber door. Flanking either side of the doorway, flaps of tanned hides protect the interior from unwanted insects when the door is open. A small sign is nailed to the left of the opening, with the word "Muria" etched in bold, block letters.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8990/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8990'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'34319', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'192028', u'name': u'a monolith sigil'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'112375', u'name': u'a glitterlight butterfly'}], u'location': u'room'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8998'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'id': u'9589', u'name': u'a classic green toadstool stool'}, {u'icon': u'rune', u'id': u'197939', u'name': u'a runic totem'}, {u'id': u'207726', u'name': u'a classic brown toadstool stool'}, {u'id': u'246462', u'name': u'a ornate polished round-shaped alder table'}, {u'icon': u'scroll', u'id': u'248115', u'name': u"the village's bounty board"}, {u'attrib': u't', u'icon': u'rune', u'id': u'542243', u'name': u'a monolith sigil'}], u'location': u'room'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8996'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+IRE.Time.Update
+{u'daynight': u'12'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'34319', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'192028', u'name': u'a monolith sigil'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'112375', u'name': u'a glitterlight butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 9 7', u'name': u'Bridge through the oaken canopy', u'exits': {u's': 6750, u'u': 40032, u'nw': 6753}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6752, u'coords': u'51,4,2,1', u'details': [], u'desc': u'The intertwining branches of two monstrous, leaning oaks construct a spectacular, arching platform, connecting the otherwise separate sections of the village. Reddish clay slathers across the woven limbs, solidifying into a sturdy under-footing. Taut, stout jungle vines plait into two sturdy handrails at either side, knotted around the broad trees on opposing ends of the overpass and firmly secured with tightened leather straps. The spindly slats of a wooden ladder dangle alongside the bridge, affording access to the high-reaching canopy of the oaken sentinels. Below, the Eastern Ithmia sprawls in wild dominion.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8998'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'191668', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'113646', u'name': u'a monolith sigil'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'112873', u'name': u'a red admiral butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 9 9', u'name': u'Junction on the Oaken Way', u'exits': {u's': 6751, u'e': 6763, u'w': 6749, u'n': 6752}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6750, u'coords': u'51,4,0,1', u'details': [], u'desc': u'The heavily leafed pathway diverges at this point into three directions. Far to the east, patches of light stream through the canopy, illuminating minuscule pollen grains that hover in the air; drifting almost imperceptibly towards an unknown destination. Towards the north, a handsome bridge can be seen spanning a sea of rich-green grasses. A looming sycamore stands stoically to the south, an irregularly shaped hollow in the trunk fitted with a solid, timber door. Flanking either side of the doorway, flaps of tanned hides protect the interior from unwanted insects when the door is open. A small sign is nailed to the left of the opening, with the word "Muria" etched in bold, block letters.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8996'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'128720', u'name': u'a runic totem'}, {u'attrib': u't', u'icon': u'rune', u'id': u'349167', u'name': u'a monolith sigil'}, {u'icon': u'lamp', u'id': u'407726', u'name': u'a logosmas platinum stocking'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 8 9', u'name': u'Along the Oaken Way', u'exits': {u'e': 6750, u'w': 6743, u'in': 8777}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6749, u'coords': u'51,3,0,1', u'details': [], u'desc': u"The occasional rustle of leaves can be heard as small animals skitter through the treetops, their movements hidden by the deep foliage. Thick, twisting vines weave in and out of the surrounding greenery, curly, dark brown tendrils falling down overhead. Various flowers blossom in tiny clusters, random splashes of colour decorating the wide vine leaves. An abandoned bird's nest peeks through the foliage, the aged twigs limp and broken. Towards the east the leafy pathway diverges, any further view lost in the ever-shifting shadows."}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8994'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'236517', u'name': u'a runic totem'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'307024', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'307788', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'342746', u'name': u'a veiled enchantress'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'361788', u'name': u'a gnarled treekin'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'373466', u'name': u'a woodland ranger'}, {u'attrib': u't', u'icon': u'rune', u'id': u'525665', u'name': u'a monolith sigil'}, {u'attrib': u't', u'icon': u'clothing', u'id': u'126398', u'name': u'a green-dyed leather quiver'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'163389', u'name': u'a golden emperor butterfly'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'126516', u'name': u'a red admiral butterfly'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'155984', u'name': u'an indigo nightfire butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 6 9', u'name': u'Split on the Oaken Way', u'exits': {u's': 6744, u'e': 6749, u'nw': 6742}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6743, u'coords': u'51,1,0,1', u'details': [], u'desc': u'Three branches lead away from here in a Y-junction. The northwest leads to the gates of the village, and to the east is a straight long route into the heart of Eleusis. Southward, you see a vine-tangled trail twisting away through the trees, house lanterns dotting the forest with their soft glows. The occasional villager passes by carrying water home from the village well, or heading into the town proper on errands.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8992/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8992'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'95739', u'name': u'a runic totem'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'246122', u'name': u'a forest archer'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'250215', u'name': u'a forest archer'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'255825', u'name': u'a woodland ranger'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'275881', u'name': u'a woodland ranger'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'319966', u'name': u'a veiled enchantress'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'22713', u'name': u'a glitterlight butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 4 7', u'name': u'Upon the Oaken Way', u'exits': {u'sw': 6740, u'se': 6743}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6742, u'coords': u'51,-1,2,1', u'details': [], u'desc': u'Weaving between a group of hickory trees, larger branches twist and encircle each other here, creating the main walkway through Eleusis. Despite being high above ground level, several blackberry bushes creep amongst the entangled growth, their thorns threatening to scratch any who pass carelessly by. Fluffy, deep green mosses flourish in darkened crevices, taking advantage of pooled water caught between the entwined branches. Below, a field is visible within the village to the north, where long heads of wheat bob about in unison, dancing with the much smaller blades of emerald grass.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8990/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8990'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'lamp', u'id': u'73009', u'name': u'a logosmas stocking'}, {u'icon': u'rune', u'id': u'93068', u'name': u'a runic totem'}, {u'icon': u'mug', u'id': u'135201', u'name': u'a burbling fountain of the Cataclysm'}, {u'attrib': u't', u'icon': u'rune', u'id': u'395007', u'name': u'a monolith sigil'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'205142', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'411984', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'512483', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'441309', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'305904', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'animal', u'id': u'412668', u'name': u'a sleek pony'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 2 9', u'name': u'Lofty platform', u'exits': {u'w': 6739, u'ne': 6742, u'se': 6741}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6740, u'coords': u'51,-3,0,1', u'details': [], u'desc': u'Situated high above the forest floor, a predominantly bare platform gently sways amidst the monstrous boughs of the Eastern Ithmia, tussled by intermittent currents of air. The strong branches of ancient oaks intertwine from the western gatehouse and sweep beneath the slatted staging into two distinct pathways, navigating through the easterly treetops with natural ease. Illuminating the canopy, strings of bobbing lanterns cast a soft, lambent glow from beneath hexagonal, translucent coverings. The periodic scuttle and call of the local wildlife resonates throughout the environs.'}
+
+Room.Players
+[{u'fullname': u'Tendril Krucible Distara, of the Yggdrasil', u'name': u'Krucible'}, {u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8988/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8988'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'attrib': u'mx', u'icon': u'guard', u'id': u'85195', u'name': u'a Briar Knight'}, {u'icon': u'rune', u'id': u'87710', u'name': u'a runic totem'}, {u'icon': u'lamp', u'id': u'94511', u'name': u'a logosmas stocking'}, {u'attrib': u'm', u'icon': u'magical', u'id': u'167284', u'name': u'a furry humgii'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'199301', u'name': u'a veiled enchantress'}, {u'icon': u'shrine', u'id': u'212616', u'name': u'a shrine of Artemis'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'313192', u'name': u'a woodland ranger'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'317005', u'name': u'a woodland ranger'}, {u'icon': u'mineral', u'id': u'343782', u'name': u'a lichen-mottled gravestone'}, {u'icon': u'profile', u'id': u'412225', u'name': u'a natural clay statue'}, {u'icon': u'lamp', u'id': u'424231', u'name': u'a logosmas stocking'}, {u'attrib': u't', u'icon': u'rune', u'id': u'441002', u'name': u'a monolith sigil'}, {u'icon': u'container', u'id': u'533177', u'name': u'a polished round-shaped cherrywood basket'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'539222', u'name': u'a forest archer'}, {u'attrib': u't', u'icon': u'rune', u'id': u'149280', u'name': u'an orb sigil'}, {u'attrib': u't', u'icon': u'container', u'id': u'450114', u'name': u'a covered silver serving platter'}, {u'attrib': u'mx', u'icon': u'animal', u'id': u'429072', u'name': u'a black Zarathustran stallion'}, {u'attrib': u't', u'icon': u'potion', u'id': u'410972', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'353089', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'548971', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'172968', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'291952', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'304936', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'353102', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'411856', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'12149', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'86709', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'161144', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'174264', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'301791', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'352973', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546287', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546384', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'548956', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'85069', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'207178', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'305652', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'348201', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'353290', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'413039', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546321', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546374', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'411804', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'509216', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'310380', u'name': u'a glazed runic vial'}, {u'attrib': u'mx', u'id': u'472715', u'name': u'a scorpent matron'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'140663', u'name': u'an exquisite summerstorm butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 1 9', u'name': u'Atop the Eleusian Gatehouse', u'exits': {u'e': 6740, u'd': 6738}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6739, u'coords': u'51,-4,0,1', u'details': [], u'desc': u"Halting abruptly, a spiral staircase marks the end of the final branch's ascent. Two of the strong limbs curve upwards from the entrance, forming a looming arch where Eleusian guards stand sentry, wary of any unwelcome visitors. Dwellings and other crude establishments rest amongst the treetops, taking advantage of the natural surroundings. Several tree limbs divide and intertwine here, providing sturdy platforms and walkways upon which one can travel with ease throughout this village. High above, broad-faced leaves shield the community from wind and rain. A narrow set of stairs formed from bleached driftwood leads further into the leafy abode, framed by tightly knit green foliage."}
+
+Room.Players
+[{u'fullname': u'Tendril Girah, of the Starax Tree', u'name': u'Girah'}, {u'fullname': u"Champion of the Oak, Miriew 'Mushroom Man' Le'Yuet", u'name': u'Miriew'}, {u'fullname': u"Rootsworn Bail Le'Yuet, the Treegon", u'name': u'Bail'}, {u'fullname': u"Torrent Alighieri-Drac'kal, Winter's Blade", u'name': u'Torrent'}, {u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8996'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'lamp', u'id': u'73009', u'name': u'a logosmas stocking'}, {u'icon': u'rune', u'id': u'93068', u'name': u'a runic totem'}, {u'icon': u'mug', u'id': u'135201', u'name': u'a burbling fountain of the Cataclysm'}, {u'attrib': u't', u'icon': u'rune', u'id': u'395007', u'name': u'a monolith sigil'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'205142', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'411984', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'512483', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'441309', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'305904', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'animal', u'id': u'412668', u'name': u'a sleek pony'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 2 9', u'name': u'Lofty platform', u'exits': {u'w': 6739, u'ne': 6742, u'se': 6741}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6740, u'coords': u'51,-3,0,1', u'details': [], u'desc': u'Situated high above the forest floor, a predominantly bare platform gently sways amidst the monstrous boughs of the Eastern Ithmia, tussled by intermittent currents of air. The strong branches of ancient oaks intertwine from the western gatehouse and sweep beneath the slatted staging into two distinct pathways, navigating through the easterly treetops with natural ease. Illuminating the canopy, strings of bobbing lanterns cast a soft, lambent glow from beneath hexagonal, translucent coverings. The periodic scuttle and call of the local wildlife resonates throughout the environs.'}
+
+Room.Players
+[{u'fullname': u'Tendril Krucible Distara, of the Yggdrasil', u'name': u'Krucible'}, {u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8994'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'attrib': u'mx', u'icon': u'guard', u'id': u'85195', u'name': u'a Briar Knight'}, {u'icon': u'rune', u'id': u'87710', u'name': u'a runic totem'}, {u'icon': u'lamp', u'id': u'94511', u'name': u'a logosmas stocking'}, {u'attrib': u'm', u'icon': u'magical', u'id': u'167284', u'name': u'a furry humgii'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'199301', u'name': u'a veiled enchantress'}, {u'icon': u'shrine', u'id': u'212616', u'name': u'a shrine of Artemis'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'313192', u'name': u'a woodland ranger'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'317005', u'name': u'a woodland ranger'}, {u'icon': u'mineral', u'id': u'343782', u'name': u'a lichen-mottled gravestone'}, {u'icon': u'profile', u'id': u'412225', u'name': u'a natural clay statue'}, {u'icon': u'lamp', u'id': u'424231', u'name': u'a logosmas stocking'}, {u'attrib': u't', u'icon': u'rune', u'id': u'441002', u'name': u'a monolith sigil'}, {u'icon': u'container', u'id': u'533177', u'name': u'a polished round-shaped cherrywood basket'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'539222', u'name': u'a forest archer'}, {u'attrib': u't', u'icon': u'rune', u'id': u'149280', u'name': u'an orb sigil'}, {u'attrib': u't', u'icon': u'container', u'id': u'450114', u'name': u'a covered silver serving platter'}, {u'attrib': u'mx', u'icon': u'animal', u'id': u'429072', u'name': u'a black Zarathustran stallion'}, {u'attrib': u't', u'icon': u'potion', u'id': u'410972', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'353089', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'548971', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'172968', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'291952', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'304936', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'353102', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'411856', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'12149', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'86709', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'161144', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'174264', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'301791', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'352973', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546287', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546384', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'548956', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'85069', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'207178', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'305652', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'348201', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'353290', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'413039', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546321', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'546374', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'411804', u'name': u'an oaken vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'509216', u'name': u'a glazed runic vial'}, {u'attrib': u't', u'icon': u'potion', u'id': u'310380', u'name': u'a glazed runic vial'}, {u'attrib': u'mx', u'id': u'472715', u'name': u'a scorpent matron'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'140663', u'name': u'an exquisite summerstorm butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 1 9', u'name': u'Atop the Eleusian Gatehouse', u'exits': {u'e': 6740, u'd': 6738}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6739, u'coords': u'51,-4,0,1', u'details': [], u'desc': u"Halting abruptly, a spiral staircase marks the end of the final branch's ascent. Two of the strong limbs curve upwards from the entrance, forming a looming arch where Eleusian guards stand sentry, wary of any unwelcome visitors. Dwellings and other crude establishments rest amongst the treetops, taking advantage of the natural surroundings. Several tree limbs divide and intertwine here, providing sturdy platforms and walkways upon which one can travel with ease throughout this village. High above, broad-faced leaves shield the community from wind and rain. A narrow set of stairs formed from bleached driftwood leads further into the leafy abode, framed by tightly knit green foliage."}
+
+Room.Players
+[{u'fullname': u'Tendril Girah, of the Starax Tree', u'name': u'Girah'}, {u'fullname': u"Champion of the Oak, Miriew 'Mushroom Man' Le'Yuet", u'name': u'Miriew'}, {u'fullname': u"Torrent Alighieri-Drac'kal, Winter's Blade", u'name': u'Torrent'}, {u'fullname': u"Rootsworn Bail Le'Yuet, the Treegon", u'name': u'Bail'}, {u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8992/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8992'}
+
+Room.RemovePlayer
+Bail
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Items.Add
+{u'item': {u'attrib': u'm', u'icon': u'animal', u'id': u'534932', u'name': u'a swarm of bees'}, u'location': u'room'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Room.WrongDir
+u
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'lamp', u'id': u'73009', u'name': u'a logosmas stocking'}, {u'icon': u'rune', u'id': u'93068', u'name': u'a runic totem'}, {u'icon': u'mug', u'id': u'135201', u'name': u'a burbling fountain of the Cataclysm'}, {u'attrib': u't', u'icon': u'rune', u'id': u'395007', u'name': u'a monolith sigil'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'205142', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'411984', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'512483', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'441309', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'305904', u'name': u'an earthen elementalist'}, {u'attrib': u'mx', u'icon': u'animal', u'id': u'412668', u'name': u'a sleek pony'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 2 9', u'name': u'Lofty platform', u'exits': {u'w': 6739, u'ne': 6742, u'se': 6741}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6740, u'coords': u'51,-3,0,1', u'details': [], u'desc': u'Situated high above the forest floor, a predominantly bare platform gently sways amidst the monstrous boughs of the Eastern Ithmia, tussled by intermittent currents of air. The strong branches of ancient oaks intertwine from the western gatehouse and sweep beneath the slatted staging into two distinct pathways, navigating through the easterly treetops with natural ease. Illuminating the canopy, strings of bobbing lanterns cast a soft, lambent glow from beneath hexagonal, translucent coverings. The periodic scuttle and call of the local wildlife resonates throughout the environs.'}
+
+Room.Players
+[{u'fullname': u'Tendril Krucible Distara, of the Yggdrasil', u'name': u'Krucible'}, {u'fullname': u"Rootsworn Bail Le'Yuet, the Treegon", u'name': u'Bail'}, {u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8998'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'95739', u'name': u'a runic totem'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'246122', u'name': u'a forest archer'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'250215', u'name': u'a forest archer'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'255825', u'name': u'a woodland ranger'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'275881', u'name': u'a woodland ranger'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'319966', u'name': u'a veiled enchantress'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'22713', u'name': u'a glitterlight butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 4 7', u'name': u'Upon the Oaken Way', u'exits': {u'sw': 6740, u'se': 6743}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6742, u'coords': u'51,-1,2,1', u'details': [], u'desc': u'Weaving between a group of hickory trees, larger branches twist and encircle each other here, creating the main walkway through Eleusis. Despite being high above ground level, several blackberry bushes creep amongst the entangled growth, their thorns threatening to scratch any who pass carelessly by. Fluffy, deep green mosses flourish in darkened crevices, taking advantage of pooled water caught between the entwined branches. Below, a field is visible within the village to the north, where long heads of wheat bob about in unison, dancing with the much smaller blades of emerald grass.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8996'}
+
+Redirect.Window
+map
+
+Redirect.Window
+main
+
+Char.Items.List
+{u'items': [{u'icon': u'rune', u'id': u'236517', u'name': u'a runic totem'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'307024', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'307788', u'name': u'a Briar Knight'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'342746', u'name': u'a veiled enchantress'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'361788', u'name': u'a gnarled treekin'}, {u'attrib': u'mx', u'icon': u'guard', u'id': u'373466', u'name': u'a woodland ranger'}, {u'attrib': u't', u'icon': u'rune', u'id': u'525665', u'name': u'a monolith sigil'}, {u'attrib': u't', u'icon': u'clothing', u'id': u'126398', u'name': u'a green-dyed leather quiver'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'163389', u'name': u'a golden emperor butterfly'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'126516', u'name': u'a red admiral butterfly'}, {u'attrib': u'm', u'icon': u'animal', u'id': u'155984', u'name': u'an indigo nightfire butterfly'}], u'location': u'room'}
+
+Room.Info
+{u'map': u'www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 6 9', u'name': u'Split on the Oaken Way', u'exits': {u's': 6744, u'e': 6749, u'nw': 6742}, u'area': u'Eleusis', u'environment': u'Trees', u'num': 6743, u'coords': u'51,1,0,1', u'details': [], u'desc': u'Three branches lead away from here in a Y-junction. The northwest leads to the gates of the village, and to the east is a straight long route into the heart of Eleusis. Southward, you see a vine-tangled trail twisting away through the trees, house lanterns dotting the forest with their soft glows. The occasional villager passes by carrying water home from the village well, or heading into the town proper on errands.'}
+
+Room.Players
+[{u'fullname': u'Sapling Sllide', u'name': u'Sllide'}]
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'8994'}
+
+Char.Vitals
+{u'maxep': u'9000', u'string': u'H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ', u'hp': u'2020', u'wp': u'8355', u'maxmp': u'2080', u'maxwp': u'8355', u'charstats': [u'Bleed: 0', u'Rage: 0', u'Spec: Two Handed'], u'mp': u'2039', u'maxhp': u'2020', u'vote': u'1', u'nl': u'99', u'bal': u'1', u'eq': u'1', u'ep': u'9000'}
+
+Char.Status
+{u'xprank': u'1672'}
+
+Room.RemovePlayer
+Sllide
+
+Char.Defences.Remove
+[u'mosstattoo']
+
+Core.Goodbye
+Farewell, adventurer.

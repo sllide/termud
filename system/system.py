@@ -4,43 +4,50 @@ from connection import Connection
 import json
 
 class System(object):
-    def __init__(self, world):
-        self.world = world
+    def __init__(self):
         self.inputParser = InputParser()
         self.networkParser = NetworkParser()
         self.connection = Connection()
-        self.connection.connect(world.host,world.port)
         self.output = ""
 
+    def connect(self, host, port):
+        self.connection.connect(host, port)
+
+    def send(self, data):
+        self.connection.sendPacket(data)
+
     def step(self):
-        self.unparsedActions = []
+        self.actions = []
         for line in self.inputParser.getOutput():
-            self.unparsedActions.append(['print', "\n"])
-            self.connection.sendPacket(line + "\n")
+            if line[0] != '.':
+                self.actions.append(['print', line + "\n"])
+                self.send(line + "\n")
+            else:
+                self.connection.sendPacket("\xFF\xFA\xC9"+line[1:]+"\xFF\xF0")
         self.connection.receive()
         while True:
             packet = self.connection.getPacket()
             if not packet:
                 break
             self.parsePacket(packet)
-        return self.unparsedActions
+        return self.actions
 
     def parsePacket(self, packet):
         actions = self.networkParser.parse(packet)
         for action in actions:
             if action[0] == "send":
-                self.connection.sendPacket(action[1])
-            elif action[0] == "gmcp":
-                if action[1].find("Redirect.Window")>-1:
-                    self.unparsedActions.append(["redirect", action[1].split(' ', 1)[1][1:-1]])
+                self.send(action[1])
+            if action[0] == "gmcp":
+                split = action[1].split(' ', 1)
+                if len(split)>1:
+                    self.actions.append(["gmcp", split[0], json.loads(split[1])])
                 else:
-                    self.unparsedActions.append([action[0], action[1].split(' ', 1)[0], json.loads(action[1].split(' ', 1)[1])])
-
+                    self.actions.append(["print", "no hablo gmcp\n"])
             else:
-                self.unparsedActions.append(action)
+                self.actions.append(action)
 
     def input(self, key):
         self.inputParser.parse(key)
 
-    def getCommand(self):
+    def getInput(self):
         return self.inputParser.getCommand()
