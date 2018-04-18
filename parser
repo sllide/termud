@@ -2,91 +2,111 @@
 GOT GMCP:
 Char.Name { "name": "Sllide", "fullname": "Sapling Sllide" }
 GOT GMCP:
-IRE.Time.List { "day": "20", "mon": "1", "month": "Sarapin", "year": "769", "hour": "14", "time": "It is early morning in Achaea.", "moonphase": "Waning Crescent", "daynight": "6" }
+IRE.Time.List { "day": "10", "mon": "4", "month": "Miraman", "year": "769", "hour": "58", "time": "It is deep night in Achaea, before midnight.", "moonphase": "New Moon", "daynight": "148" }
 GOT GMCP:
 Char.StatusVars { "name": "Name", "fullname": "Full Name", "age": "Age", "race": "Race", "specialisation": "Race Specialisation", "level": "Experience Level", "xp": "Experience To Next Level", "xprank": "Achaean XP Rank", "class": "Class", "city": "City", "house": "House", "order": "Order", "boundcredits": "Bound Credits", "unboundcredits": "Unbound Credits", "lessons": "Lessons", "explorerrank": "Explorer Rank", "mayancrowns": "Unbound Mayan Crowns", "boundmayancrowns": "Bound Mayan Crowns", "gold": "Gold", "bank": "Bank", "unread_news": "Unread News", "unread_msgs": "Unread Messages", "target": "Target", "gender": "Gender" }
 GOT GMCP:
-Char.Status { "name": "Sllide", "fullname": "Sapling Sllide", "age": "33", "race": "Rajamala", "specialisation": "", "level": "43 (99%)", "xp": "99%", "xprank": "1672", "class": "Runewarden", "city": "Eleusis (1)", "house": "The Heartwood Kin(1)", "order": "(None)", "boundcredits": "0", "unboundcredits": "0", "lessons": "561", "explorerrank": "a Rambler", "mayancrowns": "0", "boundmayancrowns": "0", "gold": "8350", "bank": "0", "unread_news": "403", "unread_msgs": "18", "target": "None", "gender": "male" }
+Char.Status { "name": "Sllide", "fullname": "Sapling Sllide", "age": "33", "race": "Rajamala", "specialisation": "", "level": "43 (99%)", "xp": "99%", "xprank": "1704", "class": "Runewarden", "city": "Eleusis (1)", "house": "The Heartwood Kin(1)", "order": "(None)", "boundcredits": "0", "unboundcredits": "0", "lessons": "561", "explorerrank": "a Rambler", "mayancrowns": "0", "boundmayancrowns": "0", "gold": "8350", "bank": "0", "unread_news": "415", "unread_msgs": "19", "target": "None", "gender": "male" }
 GOT GMCP:
 Char.Skills.Groups [ { "name": "Vision", "rank": "Inept" }, { "name": "Avoidance", "rank": "Inept" }, { "name": "Tattoos", "rank": "Inept" }, { "name": "Survival", "rank": "Inept" }, { "name": "Weaponry", "rank": "Inept" }, { "name": "Riding", "rank": "Inept" }, { "name": "Seafaring", "rank": "Inept" }, { "name": "Battlerage", "rank": "Fabled" }, { "name": "Runelore", "rank": "Novice" }, { "name": "Weaponmastery", "rank": "Skilled" }, { "name": "Constitution", "rank": "Inept" }, { "name": "Thermology", "rank": "Inept" }, { "name": "Frost", "rank": "Inept" }, { "name": "Antidotes", "rank": "Inept" }, { "name": "Fitness", "rank": "Inept" }, { "name": "Galvanism", "rank": "Inept" }, { "name": "Philosophy", "rank": "Inept" } ]
 GOT GMCP:
 Comm.Channel.List [ { "name": "newbie", "caption": "Newbie", "command": "newbie" }, { "name": "market", "caption": "Market", "command": "market" }, { "name": "ct", "caption": "Eleusis", "command": "ct" }, { "name": "hnt", "caption": "Heartwood novices", "command": "hnt" }, { "name": "clt1", "caption": "The Clan of Green Oak Institute", "command": "clt1" }, { "name": "clt2", "caption": "The Clan of New Raja Society", "command": "clt2" } ]
 GOT GMCP:
-IRE.Time.List { "day": "20", "mon": "1", "month": "Sarapin", "year": "769", "hour": "14", "time": "It is early morning in Achaea.", "moonphase": "Waning Crescent", "daynight": "6" }
+IRE.Time.List { "day": "10", "mon": "4", "month": "Miraman", "year": "769", "hour": "58", "time": "It is deep night in Achaea, before midnight.", "moonphase": "New Moon", "daynight": "148" }
 GOT GMCP:
-Char.Afflictions.List [  ]
+Char.Afflictions.List [ { "name": "prone", "cure": "STAND", "desc": "Being knocked prone can cause a lot of your options to be limited." } ]
 GOT GMCP:
-Char.Defences.List [ { "name": "mosstattoo", "desc": "This tattoo will passively clot your bleeding." } ]
+Char.Defences.List [  ]
+GOT GMCP:
+Char.Defences.Add { "name": "mosstattoo", "desc": "This tattoo will passively clot your bleeding." }
 GOT GMCP:
 Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "33292", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "41438", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "42264", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "54435", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "61313", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "200656", "name": "a runic totem", "icon": "rune" }, { "id": "230322", "name": "Vamuria, the newspaper editor", "icon": "humanoid", "attrib": "m" }, { "id": "166383", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "367261", "name": "a lobelia seed", "icon": "curative", "attrib": "t" }, { "id": "406360", "name": "a phantom sea turtle", "attrib": "mx" }, { "id": "151168", "name": "an alabaster pegasus", "icon": "magical", "attrib": "mx" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "72346", "name": "a runic totem", "icon": "rune" }, { "id": "72754", "name": "Trym, the Eleusian Inn Humgii", "icon": "magical", "attrib": "m" }, { "id": "146597", "name": "Amerante, the Eleusian Barkeep", "icon": "humanoid", "attrib": "m" }, { "id": "555063", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
 GOT GMCP:
-Room.Info { "num": 6799, "name": "The Eleusian archives", "desc": "Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.", "area": "Eleusis", "environment": "Trees", "coords": "51,18,1,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8", "details": [ "newsroom" ], "exits": { "nw": 40413 } }
+Room.Info { "num": 6776, "name": "The Eleusian Inn (indoors)", "desc": "This is the common room of the Eleusian Inn. Two huge stone and mud hearths sit at opposite ends of the large vaulted hall, fires crackling merrily and shedding flickering light into the room. Long tables are arranged here in a circle, benches of smoothed wood on either side. The centre area has been left bare of furniture, and has a thin layer of coarse sand spread upon the floor to aid the dancers' traction. The merry sounds of revellers fill the air and serving maids wander among the tables, bearing pitchers of strong mead and bottles of fine wine. An age-worn barstool is settled in the centre of the long oaken bar. A small brass plaque attached to it reads simply \"Merlin\".", "area": "Eleusis", "environment": "Trees", "coords": "51,16,8,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 21 1", "details": [ "shop", "indoors" ], "exits": { "sw": 6771, "u": 8338, "d": 6778 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
 Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
 GOT GMCP:
+Char.Afflictions.Remove [ "prone" ]
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
 Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "33292", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "41438", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "42264", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "54435", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "61313", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "200656", "name": "a runic totem", "icon": "rune" }, { "id": "230322", "name": "Vamuria, the newspaper editor", "icon": "humanoid", "attrib": "m" }, { "id": "166383", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "367261", "name": "a lobelia seed", "icon": "curative", "attrib": "t" }, { "id": "406360", "name": "a phantom sea turtle", "attrib": "mx" }, { "id": "151168", "name": "an alabaster pegasus", "icon": "magical", "attrib": "mx" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "140524", "name": "a runic totem", "icon": "rune" }, { "id": "543524", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
 GOT GMCP:
-Room.Info { "num": 6799, "name": "The Eleusian archives", "desc": "Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.", "area": "Eleusis", "environment": "Trees", "coords": "51,18,1,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8", "details": [ "newsroom" ], "exits": { "nw": 40413 } }
+Room.Info { "num": 6771, "name": "Lower Draoi Quarter", "desc": "The massive ovens of the nearby inn create a sphere of warmth that extends into this area. The delectable aromas of a never ending supply of baked goods float along on the warm air currents, the scent of spiced apples mingling with that of fresh bread and roasted meats. The path here winds around a small brewery, vats of fermenting ale standing ready to be tapped and served directly to the inn's patrons. Outside the brewery, a large tray of the inn's signature fresh trout sits covered in a solid sheet of ice.", "area": "Eleusis", "environment": "Trees", "coords": "51,14,6,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 19 3", "details": [  ], "exits": { "n": 33713, "ne": 6776, "e": 34228, "s": 6769, "sw": 6768, "w": 6770 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Comm.Channel.Text { "channel": "newbie", "talker": "Malith", "text": "\u001b[0;1;32m(Newbie): Malith says, \"Im*.\"\u001b[0;37m" }
-GOT GMCP:
-Comm.Channel.Start "newbie"
-GOT GMCP:
-Comm.Channel.End "newbie"
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Items.List { "location": "inv", "items": [ { "id": "550672", "name": "a blue shirt", "icon": "clothing", "attrib": "w", "wearslot": "shirt" }, { "id": "357956", "name": "a pair of suede desert boots", "icon": "clothing", "attrib": "w", "wearslot": "feet" }, { "id": "550575", "name": "a pair of simple black trousers", "icon": "clothing", "attrib": "w", "wearslot": "legs" }, { "id": "94155", "name": "a canvas backpack", "icon": "clothing", "attrib": "wc" }, { "id": "375448", "name": "a long gold coloured rain-coat", "icon": "clothing", "attrib": "w", "wearslot": "jacket" }, { "id": "533075", "name": "silly thigh-high rainbow socks", "icon": "clothing", "attrib": "w", "wearslot": "socks" }, { "id": "369087", "name": "a purple heartwood vial", "icon": "potion", "attrib": "f" }, { "id": "442843", "name": "a purple heartwood vial", "icon": "potion", "attrib": "f" }, { "id": "163192", "name": "a rustic, Eleusian bastard sword", "icon": "weapon", "attrib": "lL" }, { "id": "84589", "name": "a plate of lemon chicken pasta with fresh capers", "icon": "food", "attrib": "e" }, { "id": "281750", "name": "a plate of wild-caught salmon fillet with salsa", "icon": "food", "attrib": "e" }, { "id": "1111", "name": "a plate of orange ginger glazed salmon and rice", "icon": "food", "attrib": "e" }, { "id": "56636", "name": "an oaken plate of fried acorn-shaped dough balls", "icon": "food", "attrib": "e" }, { "id": "242815", "name": "an oaken plate of fried acorn-shaped dough balls", "icon": "food", "attrib": "e" }, { "id": "49432", "name": "a bowl of elemental ice cream", "icon": "food", "attrib": "e" }, { "id": "275874", "name": "a bowl of elemental ice cream", "icon": "food", "attrib": "e" }, { "id": "242833", "name": "a bowl of elemental ice cream", "icon": "food", "attrib": "e" }, { "id": "188770", "name": "a forestal salad of edible flowers", "icon": "food", "attrib": "e" }, { "id": "230727", "name": "a forestal salad of edible flowers", "icon": "food", "attrib": "e" }, { "id": "217441", "name": "an eye sigil", "icon": "rune", "attrib": "g" } ] }
-GOT GMCP:
-IRE.Time.Update { "daynight": "9" }
-GOT GMCP:
-Room.WrongDir "n"
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Room.WrongDir "n"
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8998", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
 GOT GMCP:
 Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "33292", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "41438", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "42264", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "54435", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "61313", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "200656", "name": "a runic totem", "icon": "rune" }, { "id": "230322", "name": "Vamuria, the newspaper editor", "icon": "humanoid", "attrib": "m" }, { "id": "166383", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "367261", "name": "a lobelia seed", "icon": "curative", "attrib": "t" }, { "id": "406360", "name": "a phantom sea turtle", "attrib": "mx" }, { "id": "151168", "name": "an alabaster pegasus", "icon": "magical", "attrib": "mx" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "151925", "name": "a runic totem", "icon": "rune" }, { "id": "457310", "name": "a key-shaped sigil", "icon": "rune", "attrib": "t" }, { "id": "543408", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "146419", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" } ] }
 GOT GMCP:
-Room.Info { "num": 6799, "name": "The Eleusian archives", "desc": "Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.", "area": "Eleusis", "environment": "Trees", "coords": "51,18,1,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8", "details": [ "newsroom" ], "exits": { "nw": 40413 } }
+Room.Info { "num": 6769, "name": "Southern Draoi Quarter", "desc": "A break in the canopy above the southern end of the Draoi Quarter offers a broad view of the sky with a few pleasantly puffy clouds drifting past, making the overhead scenery as lovely as that of the village below. The marketplace is open and airy, the unchecked wind swirling around the stalls, carrying the faint scents of maple from the forest outside the village. Each shop in this section of the market is hung with brightly coloured fabrics and woven items. The majority are homemade Eleusian textiles, although some expensive items are recognisable as imports from as far away as Targossas and Cyrene.", "area": "Eleusis", "environment": "Trees", "coords": "51,14,4,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 19 5", "details": [  ], "exits": { "n": 6771, "e": 32536, "se": 6780, "w": 6768, "nw": 6770 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8998", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
 GOT GMCP:
 Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "72893", "name": "a runic totem", "icon": "rune" }, { "id": "538804", "name": "a shrine of Artemis", "icon": "shrine" }, { "id": "538859", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "2893", "name": "the corpse of a diminutive fairy", "icon": "deadbody", "attrib": "mdt" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "166817", "name": "a runic totem", "icon": "rune" }, { "id": "495087", "name": "an eye sigil", "icon": "rune", "attrib": "t" }, { "id": "335622", "name": "a key-shaped sigil", "icon": "rune", "attrib": "t" }, { "id": "120328", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "187385", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" } ] }
+GOT GMCP:
+Room.Info { "num": 32536, "name": "Pestle & Mortar (indoors)", "desc": "Emerald vines vibrant with life cover the naturally formed hollow of this shop. The viridian tendrils lightly drape over the shelves and nooks that line the inner walls of the tree, and almost completely cover the wooden floor in a lush carpet of green. Large, thick leaves flutter gently upon unseen breezes, accompanying several violet flowers that fill the air with a sweet and delicate scent.", "area": "Eleusis", "environment": "Trees", "coords": "51,15,4,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 20 5", "details": [ "shop", "indoors" ], "exits": { "w": 6769, "d": 35002 } }
+GOT GMCP:
+Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8994", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
+Redirect.Window "map"
+GOT GMCP:
+Redirect.Window "main"
+GOT GMCP:
+Char.Items.List { "location": "room", "items": [ { "id": "151925", "name": "a runic totem", "icon": "rune" }, { "id": "457310", "name": "a key-shaped sigil", "icon": "rune", "attrib": "t" }, { "id": "543408", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "146419", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" } ] }
+GOT GMCP:
+Room.Info { "num": 6769, "name": "Southern Draoi Quarter", "desc": "A break in the canopy above the southern end of the Draoi Quarter offers a broad view of the sky with a few pleasantly puffy clouds drifting past, making the overhead scenery as lovely as that of the village below. The marketplace is open and airy, the unchecked wind swirling around the stalls, carrying the faint scents of maple from the forest outside the village. Each shop in this section of the market is hung with brightly coloured fabrics and woven items. The majority are homemade Eleusian textiles, although some expensive items are recognisable as imports from as far away as Targossas and Cyrene.", "area": "Eleusis", "environment": "Trees", "coords": "51,14,4,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 19 5", "details": [  ], "exits": { "n": 6771, "e": 32536, "se": 6780, "w": 6768, "nw": 6770 } }
+GOT GMCP:
+Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8996", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
+Redirect.Window "map"
+GOT GMCP:
+Redirect.Window "main"
+GOT GMCP:
+Char.Items.List { "location": "room", "items": [ { "id": "133513", "name": "a runic totem", "icon": "rune" }, { "id": "375842", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
+GOT GMCP:
+Room.Info { "num": 6780, "name": "Pathway upon the Emerald Circle", "desc": "The meandering wooden path curves gently as it leads around the magnificent Great Oak. Elegant and serene, the length of the walkway is draped with ivy vines and mistletoe boughs that create dappled green patterns of filtered light on the interwoven branches underfoot. The sounds of laughter and activity occasionally break the soft silence, drifting past on breezes carried from the Oak and the bustling Draoi Quarter to the northwest.", "area": "Eleusis", "environment": "Trees", "coords": "51,16,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 21 7", "details": [  ], "exits": { "e": 40413, "s": 6781, "nw": 6769 } }
+GOT GMCP:
+Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
+GOT GMCP:
+Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8994", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
+GOT GMCP:
+Redirect.Window "map"
+GOT GMCP:
+Redirect.Window "main"
+GOT GMCP:
+Char.Items.List { "location": "room", "items": [ { "id": "72893", "name": "a runic totem", "icon": "rune" }, { "id": "538804", "name": "a shrine of Artemis", "icon": "shrine" }, { "id": "538859", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "406645", "name": "Hongi, the Anachaine Headhunter", "attrib": "m" } ] }
 GOT GMCP:
 Room.Info { "num": 40413, "name": "Verdant courtyard", "desc": "A broad, circular platform balances across the sturdy branches of a dense copse of maples, the slender beams bordered by emerald topiaries. Neatly pruned, the bushes curve into narrowing spirals. The lush, green foliage of the surrounding trees drapes across the constructed rooftops of two opposing hollows, each structure nestled within the gnarled embrace of the branches. Hanging overhead, paper lanterns cast a soft illumination upon the verdant space.", "area": "Eleusis", "environment": "Trees", "coords": "51,17,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 22 7", "details": [  ], "exits": { "ne": 8196, "se": 6799, "w": 6780 } }
 GOT GMCP:
@@ -98,45 +118,9 @@ Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "133513", "name": "a runic totem", "icon": "rune" }, { "id": "375842", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "168526", "name": "Ellie, an iridescent cloud form", "icon": "magical", "attrib": "m" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "146643", "name": "a runic totem", "icon": "rune" }, { "id": "374167", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "432655", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "473647", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "473722", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "473734", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" } ] }
 GOT GMCP:
-Room.Info { "num": 6780, "name": "Pathway upon the Emerald Circle", "desc": "The meandering wooden path curves gently as it leads around the magnificent Great Oak. Elegant and serene, the length of the walkway is draped with ivy vines and mistletoe boughs that create dappled green patterns of filtered light on the interwoven branches underfoot. The sounds of laughter and activity occasionally break the soft silence, drifting past on breezes carried from the Oak and the bustling Draoi Quarter to the northwest.", "area": "Eleusis", "environment": "Trees", "coords": "51,16,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 21 7", "details": [  ], "exits": { "e": 40413, "s": 6781, "nw": 6769 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8996", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "151925", "name": "a runic totem", "icon": "rune" }, { "id": "457310", "name": "a key-shaped sigil", "icon": "rune", "attrib": "t" }, { "id": "543408", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
-GOT GMCP:
-Room.Info { "num": 6769, "name": "Southern Draoi Quarter", "desc": "A break in the canopy above the southern end of the Draoi Quarter offers a broad view of the sky with a few pleasantly puffy clouds drifting past, making the overhead scenery as lovely as that of the village below. The marketplace is open and airy, the unchecked wind swirling around the stalls, carrying the faint scents of maple from the forest outside the village. Each shop in this section of the market is hung with brightly coloured fabrics and woven items. The majority are homemade Eleusian textiles, although some expensive items are recognisable as imports from as far away as Targossas and Cyrene.", "area": "Eleusis", "environment": "Trees", "coords": "51,14,4,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 19 5", "details": [  ], "exits": { "n": 6771, "e": 32536, "se": 6780, "w": 6768, "nw": 6770 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8994", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "14379", "name": "a runic totem", "icon": "rune" }, { "id": "542958", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "113434", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6768, "name": "Entering Draoi Quarter", "desc": "A single broad limb of the massive Great Oak slopes gradually downward, forming a path toward a thick curtain of long, weighty vines. The creepers are separated and cleverly plaited in the centre, forming a tall archway with a slim wooden sign hanging from delicate gilded chains at the crest. The words \"Draoi Quarter\" are etched into the sign with beautiful lettering. Set into a niche near the portico is a maple post with pointed planks, directing the way to several places within the village. The marketplace beyond the arch consists of several tiers of branches leading higher into the canopy, each laden with a plethora of multicoloured baskets filled with various wares.", "area": "Eleusis", "environment": "Trees", "coords": "51,12,4,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 17 5", "details": [  ], "exits": { "n": 6770, "ne": 6771, "e": 6769, "w": 6767 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8998", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "191292", "name": "a runic totem", "icon": "rune" }, { "id": "539558", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
-GOT GMCP:
-Room.Info { "num": 6767, "name": "Upon the Emerald Circle", "desc": "Intertwining boughs wind around the Great Oak, affording a stunning view of the bustling villages crux. The Hierophants' Square lies beyond a southwesterly tree line, and the northwestern Draoi Quarter lingers in the distance, far beyond the ropes of a short, northern bridge. Various species of tree grow along the treetop pathway and bear bright clumps of mistletoe, the colour of which lends the Emerald Circle its name. Tiny honeyeaters and vibrant hummingbirds nestle within the vegetation, happily making their homes within the safe cover of leaves and red berries.", "area": "Eleusis", "environment": "Trees", "coords": "51,10,4,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 15 5", "details": [  ], "exits": { "n": 18845, "e": 6768, "sw": 6766 } }
+Room.Info { "num": 8196, "name": "The Eleusian Bank of Commerce", "desc": "In the gnarled embrace of the maples, a secluded hollow provides reprieve from the outside world. Dark beams of wood wrap about the nook and gleam with a full shine, each plank treated with a healthy slathering of oil. Golden firelight flickers across the timber in great leaps and bounds, cast by iron lanterns that affix to the surrounding walls: etched in bas relief, each metal prison holds a rotund pillar candle. Affixed overhead, intricate tapestries depict the founding of Eleusis, the arrases tumbling down the northern wall to provide a colourful backdrop for a large, dominating counter. A number of bankers, each dressed in formal attire, stand behind the sturdy bar and await an exigent customer.", "area": "Eleusis", "environment": "Trees", "coords": "51,18,3,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 6", "details": [ "bank" ], "exits": { "sw": 40413 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
@@ -146,9 +130,9 @@ Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "87404", "name": "a runic totem", "icon": "rune" }, { "id": "542521", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "72893", "name": "a runic totem", "icon": "rune" }, { "id": "538804", "name": "a shrine of Artemis", "icon": "shrine" }, { "id": "538859", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "406645", "name": "Hongi, the Anachaine Headhunter", "attrib": "m" } ] }
 GOT GMCP:
-Room.Info { "num": 6766, "name": "Northern Hierophants' Square", "desc": "A collection of artful wooden statues line the perimeter of the square here, each figure the ongoing effort of centuries of work. Gifted arboreal artists coax the oak branches to grow vertically, painstakingly encouraging them into the shapes of former Hierophants of Oakstone. Smaller branches near the edges of the square are propped on supports and firmly tied with strong fibres, ready to be shaped into the forms of current and future Hierophants. A larger figure, weathered and ancient, shows the face of the goddess Gaia, Her lithe figure towering above the others with arms outstretched to gather them into Her embrace.", "area": "Eleusis", "environment": "Trees", "coords": "51,8,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 13 7", "details": [  ], "exits": { "ne": 6767, "sw": 6763 } }
+Room.Info { "num": 40413, "name": "Verdant courtyard", "desc": "A broad, circular platform balances across the sturdy branches of a dense copse of maples, the slender beams bordered by emerald topiaries. Neatly pruned, the bushes curve into narrowing spirals. The lush, green foliage of the surrounding trees drapes across the constructed rooftops of two opposing hollows, each structure nestled within the gnarled embrace of the branches. Hanging overhead, paper lanterns cast a soft illumination upon the verdant space.", "area": "Eleusis", "environment": "Trees", "coords": "51,17,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 22 7", "details": [  ], "exits": { "ne": 8196, "se": 6799, "w": 6780 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
@@ -158,9 +142,9 @@ Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "105719", "name": "a runic totem", "icon": "rune" }, { "id": "181067", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "288419", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "335678", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "337239", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "443821", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "460812", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "33292", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "41438", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "42264", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "54435", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "61313", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "200656", "name": "a runic totem", "icon": "rune" }, { "id": "230322", "name": "Vamuria, the newspaper editor", "icon": "humanoid", "attrib": "m" }, { "id": "166383", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "15994", "name": "a dolomite grain", "icon": "curative", "attrib": "t" }, { "id": "539715", "name": "a group of 20 elemental cubes of ice", "icon": "commodity", "attrib": "t" } ] }
 GOT GMCP:
-Room.Info { "num": 6763, "name": "Before the Hierophants' Complex", "desc": "This main square of the village spreads out across interlocking boughs, creating a wide open space above the intricately woven platform. The higher branches of the trees grow further apart, allowing natural illumination to enter into the square. Filtered slightly by the occasional leaf-laden branch above the area, the light casts a dancing pattern of shadows across the vast complex. The many neighbourhoods of the village can be accessed from this central location, causing regular traffic and activity as citizens travel from one place to another.", "area": "Eleusis", "environment": "Trees", "coords": "51,6,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 11 9", "details": [  ], "exits": { "ne": 6766, "e": 6764, "se": 6765, "w": 6750 } }
+Room.Info { "num": 6799, "name": "The Eleusian archives", "desc": "Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.", "area": "Eleusis", "environment": "Trees", "coords": "51,18,1,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8", "details": [ "newsroom" ], "exits": { "nw": 40413 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
@@ -170,34 +154,12 @@ Redirect.Window "map"
 GOT GMCP:
 Redirect.Window "main"
 GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "191668", "name": "a runic totem", "icon": "rune" }, { "id": "113646", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "112873", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" } ] }
+Char.Items.List { "location": "room", "items": [ { "id": "33292", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "41438", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "42264", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "54435", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "61313", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "200656", "name": "a runic totem", "icon": "rune" }, { "id": "230322", "name": "Vamuria, the newspaper editor", "icon": "humanoid", "attrib": "m" }, { "id": "166383", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "15994", "name": "a dolomite grain", "icon": "curative", "attrib": "t" }, { "id": "539715", "name": "a group of 20 elemental cubes of ice", "icon": "commodity", "attrib": "t" } ] }
 GOT GMCP:
-Room.Info { "num": 6750, "name": "Junction on the Oaken Way", "desc": "The heavily leafed pathway diverges at this point into three directions. Far to the east, patches of light stream through the canopy, illuminating minuscule pollen grains that hover in the air; drifting almost imperceptibly towards an unknown destination. Towards the north, a handsome bridge can be seen spanning a sea of rich-green grasses. A looming sycamore stands stoically to the south, an irregularly shaped hollow in the trunk fitted with a solid, timber door. Flanking either side of the doorway, flaps of tanned hides protect the interior from unwanted insects when the door is open. A small sign is nailed to the left of the opening, with the word \"Muria\" etched in bold, block letters.", "area": "Eleusis", "environment": "Trees", "coords": "51,4,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 9 9", "details": [  ], "exits": { "n": 6752, "e": 6763, "s": 6751, "w": 6749 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8990", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8990/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "34319", "name": "a runic totem", "icon": "rune" }, { "id": "192028", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "112375", "name": "a glitterlight butterfly", "icon": "animal", "attrib": "m" } ] }
+Room.Info { "num": 6799, "name": "The Eleusian archives", "desc": "Thick beams of silvery oak wrap into a secluded alcove, the roof overhead constructed from the intertwined branches of a flourishing maple. Affixed to the surrounding walls, wooden shelving supports towering stacks of paper, each piece of parchment scrawled with calligraphy. Wells of ink and large, clay pots of quills balance upon the untidy piles. Light floods through a slender archway that curves to the north, bathing the archives in a soft light.", "area": "Eleusis", "environment": "Trees", "coords": "51,18,1,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 23 8", "details": [ "newsroom" ], "exits": { "nw": 40413 } }
 GOT GMCP:
 Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
 GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8998", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "9589", "name": "a classic green toadstool stool" }, { "id": "197939", "name": "a runic totem", "icon": "rune" }, { "id": "207726", "name": "a classic brown toadstool stool" }, { "id": "246462", "name": "a ornate polished round-shaped alder table" }, { "id": "248115", "name": "the village's bounty board", "icon": "scroll" }, { "id": "542243", "name": "a monolith sigil", "icon": "rune", "attrib": "t" } ] }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8996", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
 Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
 GOT GMCP:
 Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
@@ -206,176 +168,8 @@ Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep"
 GOT GMCP:
 Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
 GOT GMCP:
-IRE.Time.Update { "daynight": "12" }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "34319", "name": "a runic totem", "icon": "rune" }, { "id": "192028", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "112375", "name": "a glitterlight butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6752, "name": "Bridge through the oaken canopy", "desc": "The intertwining branches of two monstrous, leaning oaks construct a spectacular, arching platform, connecting the otherwise separate sections of the village. Reddish clay slathers across the woven limbs, solidifying into a sturdy under-footing. Taut, stout jungle vines plait into two sturdy handrails at either side, knotted around the broad trees on opposing ends of the overpass and firmly secured with tightened leather straps. The spindly slats of a wooden ladder dangle alongside the bridge, affording access to the high-reaching canopy of the oaken sentinels. Below, the Eastern Ithmia sprawls in wild dominion.", "area": "Eleusis", "environment": "Trees", "coords": "51,4,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 9 7", "details": [  ], "exits": { "s": 6750, "nw": 6753, "u": 40032 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8998", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "191668", "name": "a runic totem", "icon": "rune" }, { "id": "113646", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "112873", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6750, "name": "Junction on the Oaken Way", "desc": "The heavily leafed pathway diverges at this point into three directions. Far to the east, patches of light stream through the canopy, illuminating minuscule pollen grains that hover in the air; drifting almost imperceptibly towards an unknown destination. Towards the north, a handsome bridge can be seen spanning a sea of rich-green grasses. A looming sycamore stands stoically to the south, an irregularly shaped hollow in the trunk fitted with a solid, timber door. Flanking either side of the doorway, flaps of tanned hides protect the interior from unwanted insects when the door is open. A small sign is nailed to the left of the opening, with the word \"Muria\" etched in bold, block letters.", "area": "Eleusis", "environment": "Trees", "coords": "51,4,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 9 9", "details": [  ], "exits": { "n": 6752, "e": 6763, "s": 6751, "w": 6749 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8996", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "128720", "name": "a runic totem", "icon": "rune" }, { "id": "349167", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "407726", "name": "a logosmas platinum stocking", "icon": "lamp" } ] }
-GOT GMCP:
-Room.Info { "num": 6749, "name": "Along the Oaken Way", "desc": "The occasional rustle of leaves can be heard as small animals skitter through the treetops, their movements hidden by the deep foliage. Thick, twisting vines weave in and out of the surrounding greenery, curly, dark brown tendrils falling down overhead. Various flowers blossom in tiny clusters, random splashes of colour decorating the wide vine leaves. An abandoned bird's nest peeks through the foliage, the aged twigs limp and broken. Towards the east the leafy pathway diverges, any further view lost in the ever-shifting shadows.", "area": "Eleusis", "environment": "Trees", "coords": "51,3,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 8 9", "details": [  ], "exits": { "e": 6750, "w": 6743, "in": 8777 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8994", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "236517", "name": "a runic totem", "icon": "rune" }, { "id": "307024", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "307788", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "342746", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "361788", "name": "a gnarled treekin", "icon": "guard", "attrib": "mx" }, { "id": "373466", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "525665", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "126398", "name": "a green-dyed leather quiver", "icon": "clothing", "attrib": "t" }, { "id": "163389", "name": "a golden emperor butterfly", "icon": "animal", "attrib": "m" }, { "id": "126516", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" }, { "id": "155984", "name": "an indigo nightfire butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6743, "name": "Split on the Oaken Way", "desc": "Three branches lead away from here in a Y-junction. The northwest leads to the gates of the village, and to the east is a straight long route into the heart of Eleusis. Southward, you see a vine-tangled trail twisting away through the trees, house lanterns dotting the forest with their soft glows. The occasional villager passes by carrying water home from the village well, or heading into the town proper on errands.", "area": "Eleusis", "environment": "Trees", "coords": "51,1,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 6 9", "details": [  ], "exits": { "e": 6749, "s": 6744, "nw": 6742 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8992", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8992/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "95739", "name": "a runic totem", "icon": "rune" }, { "id": "246122", "name": "a forest archer", "icon": "guard", "attrib": "mx" }, { "id": "250215", "name": "a forest archer", "icon": "guard", "attrib": "mx" }, { "id": "255825", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "275881", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "319966", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "22713", "name": "a glitterlight butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6742, "name": "Upon the Oaken Way", "desc": "Weaving between a group of hickory trees, larger branches twist and encircle each other here, creating the main walkway through Eleusis. Despite being high above ground level, several blackberry bushes creep amongst the entangled growth, their thorns threatening to scratch any who pass carelessly by. Fluffy, deep green mosses flourish in darkened crevices, taking advantage of pooled water caught between the entwined branches. Below, a field is visible within the village to the north, where long heads of wheat bob about in unison, dancing with the much smaller blades of emerald grass.", "area": "Eleusis", "environment": "Trees", "coords": "51,-1,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 4 7", "details": [  ], "exits": { "se": 6743, "sw": 6740 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8990", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8990/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "73009", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "93068", "name": "a runic totem", "icon": "rune" }, { "id": "135201", "name": "a burbling fountain of the Cataclysm", "icon": "mug" }, { "id": "395007", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "205142", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "411984", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "512483", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "441309", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "305904", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "412668", "name": "a sleek pony", "icon": "animal", "attrib": "mx" } ] }
-GOT GMCP:
-Room.Info { "num": 6740, "name": "Lofty platform", "desc": "Situated high above the forest floor, a predominantly bare platform gently sways amidst the monstrous boughs of the Eastern Ithmia, tussled by intermittent currents of air. The strong branches of ancient oaks intertwine from the western gatehouse and sweep beneath the slatted staging into two distinct pathways, navigating through the easterly treetops with natural ease. Illuminating the canopy, strings of bobbing lanterns cast a soft, lambent glow from beneath hexagonal, translucent coverings. The periodic scuttle and call of the local wildlife resonates throughout the environs.", "area": "Eleusis", "environment": "Trees", "coords": "51,-3,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 2 9", "details": [  ], "exits": { "ne": 6742, "se": 6741, "w": 6739 } }
-GOT GMCP:
-Room.Players [ { "name": "Krucible", "fullname": "Tendril Krucible Distara, of the Yggdrasil" }, { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8988", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8988/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "85195", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "87710", "name": "a runic totem", "icon": "rune" }, { "id": "94511", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "167284", "name": "a furry humgii", "icon": "magical", "attrib": "m" }, { "id": "199301", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "212616", "name": "a shrine of Artemis", "icon": "shrine" }, { "id": "313192", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "317005", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "343782", "name": "a lichen-mottled gravestone", "icon": "mineral" }, { "id": "412225", "name": "a natural clay statue", "icon": "profile" }, { "id": "424231", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "441002", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "533177", "name": "a polished round-shaped cherrywood basket", "icon": "container" }, { "id": "539222", "name": "a forest archer", "icon": "guard", "attrib": "mx" }, { "id": "149280", "name": "an orb sigil", "icon": "rune", "attrib": "t" }, { "id": "450114", "name": "a covered silver serving platter", "icon": "container", "attrib": "t" }, { "id": "429072", "name": "a black Zarathustran stallion", "icon": "animal", "attrib": "mx" }, { "id": "410972", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "353089", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "548971", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "172968", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "291952", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "304936", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "353102", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "411856", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "12149", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "86709", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "161144", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "174264", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "301791", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "352973", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546287", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546384", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "548956", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "85069", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "207178", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "305652", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "348201", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "353290", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "413039", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546321", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546374", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "411804", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "509216", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "310380", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "472715", "name": "a scorpent matron", "attrib": "mx" }, { "id": "140663", "name": "an exquisite summerstorm butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6739, "name": "Atop the Eleusian Gatehouse", "desc": "Halting abruptly, a spiral staircase marks the end of the final branch's ascent. Two of the strong limbs curve upwards from the entrance, forming a looming arch where Eleusian guards stand sentry, wary of any unwelcome visitors. Dwellings and other crude establishments rest amongst the treetops, taking advantage of the natural surroundings. Several tree limbs divide and intertwine here, providing sturdy platforms and walkways upon which one can travel with ease throughout this village. High above, broad-faced leaves shield the community from wind and rain. A narrow set of stairs formed from bleached driftwood leads further into the leafy abode, framed by tightly knit green foliage.", "area": "Eleusis", "environment": "Trees", "coords": "51,-4,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 1 9", "details": [  ], "exits": { "e": 6740, "d": 6738 } }
-GOT GMCP:
-Room.Players [ { "name": "Girah", "fullname": "Tendril Girah, of the Starax Tree" }, { "name": "Miriew", "fullname": "Champion of the Oak, Miriew 'Mushroom Man' Le'Yuet" }, { "name": "Bail", "fullname": "Rootsworn Bail Le'Yuet, the Treegon" }, { "name": "Torrent", "fullname": "Torrent Alighieri-Drac'kal, Winter's Blade" }, { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8996", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "73009", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "93068", "name": "a runic totem", "icon": "rune" }, { "id": "135201", "name": "a burbling fountain of the Cataclysm", "icon": "mug" }, { "id": "395007", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "205142", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "411984", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "512483", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "441309", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "305904", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "412668", "name": "a sleek pony", "icon": "animal", "attrib": "mx" } ] }
-GOT GMCP:
-Room.Info { "num": 6740, "name": "Lofty platform", "desc": "Situated high above the forest floor, a predominantly bare platform gently sways amidst the monstrous boughs of the Eastern Ithmia, tussled by intermittent currents of air. The strong branches of ancient oaks intertwine from the western gatehouse and sweep beneath the slatted staging into two distinct pathways, navigating through the easterly treetops with natural ease. Illuminating the canopy, strings of bobbing lanterns cast a soft, lambent glow from beneath hexagonal, translucent coverings. The periodic scuttle and call of the local wildlife resonates throughout the environs.", "area": "Eleusis", "environment": "Trees", "coords": "51,-3,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 2 9", "details": [  ], "exits": { "ne": 6742, "se": 6741, "w": 6739 } }
-GOT GMCP:
-Room.Players [ { "name": "Krucible", "fullname": "Tendril Krucible Distara, of the Yggdrasil" }, { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8994", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "85195", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "87710", "name": "a runic totem", "icon": "rune" }, { "id": "94511", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "167284", "name": "a furry humgii", "icon": "magical", "attrib": "m" }, { "id": "199301", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "212616", "name": "a shrine of Artemis", "icon": "shrine" }, { "id": "313192", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "317005", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "343782", "name": "a lichen-mottled gravestone", "icon": "mineral" }, { "id": "412225", "name": "a natural clay statue", "icon": "profile" }, { "id": "424231", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "441002", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "533177", "name": "a polished round-shaped cherrywood basket", "icon": "container" }, { "id": "539222", "name": "a forest archer", "icon": "guard", "attrib": "mx" }, { "id": "149280", "name": "an orb sigil", "icon": "rune", "attrib": "t" }, { "id": "450114", "name": "a covered silver serving platter", "icon": "container", "attrib": "t" }, { "id": "429072", "name": "a black Zarathustran stallion", "icon": "animal", "attrib": "mx" }, { "id": "410972", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "353089", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "548971", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "172968", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "291952", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "304936", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "353102", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "411856", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "12149", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "86709", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "161144", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "174264", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "301791", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "352973", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546287", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546384", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "548956", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "85069", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "207178", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "305652", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "348201", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "353290", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "413039", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546321", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "546374", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "411804", "name": "an oaken vial", "icon": "potion", "attrib": "t" }, { "id": "509216", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "310380", "name": "a glazed runic vial", "icon": "potion", "attrib": "t" }, { "id": "472715", "name": "a scorpent matron", "attrib": "mx" }, { "id": "140663", "name": "an exquisite summerstorm butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6739, "name": "Atop the Eleusian Gatehouse", "desc": "Halting abruptly, a spiral staircase marks the end of the final branch's ascent. Two of the strong limbs curve upwards from the entrance, forming a looming arch where Eleusian guards stand sentry, wary of any unwelcome visitors. Dwellings and other crude establishments rest amongst the treetops, taking advantage of the natural surroundings. Several tree limbs divide and intertwine here, providing sturdy platforms and walkways upon which one can travel with ease throughout this village. High above, broad-faced leaves shield the community from wind and rain. A narrow set of stairs formed from bleached driftwood leads further into the leafy abode, framed by tightly knit green foliage.", "area": "Eleusis", "environment": "Trees", "coords": "51,-4,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 1 9", "details": [  ], "exits": { "e": 6740, "d": 6738 } }
-GOT GMCP:
-Room.Players [ { "name": "Girah", "fullname": "Tendril Girah, of the Starax Tree" }, { "name": "Miriew", "fullname": "Champion of the Oak, Miriew 'Mushroom Man' Le'Yuet" }, { "name": "Torrent", "fullname": "Torrent Alighieri-Drac'kal, Winter's Blade" }, { "name": "Bail", "fullname": "Rootsworn Bail Le'Yuet, the Treegon" }, { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8992", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8992/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Room.RemovePlayer "Bail"
+IRE.Time.Update { "daynight": "151" }
 GOT GMCP:
 Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
 GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Items.Add { "location": "room", "item": { "id": "534932", "name": "a swarm of bees", "icon": "animal", "attrib": "m" } }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Room.WrongDir "u"
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "73009", "name": "a logosmas stocking", "icon": "lamp" }, { "id": "93068", "name": "a runic totem", "icon": "rune" }, { "id": "135201", "name": "a burbling fountain of the Cataclysm", "icon": "mug" }, { "id": "395007", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "205142", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "411984", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "512483", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "441309", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "305904", "name": "an earthen elementalist", "icon": "guard", "attrib": "mx" }, { "id": "412668", "name": "a sleek pony", "icon": "animal", "attrib": "mx" } ] }
-GOT GMCP:
-Room.Info { "num": 6740, "name": "Lofty platform", "desc": "Situated high above the forest floor, a predominantly bare platform gently sways amidst the monstrous boughs of the Eastern Ithmia, tussled by intermittent currents of air. The strong branches of ancient oaks intertwine from the western gatehouse and sweep beneath the slatted staging into two distinct pathways, navigating through the easterly treetops with natural ease. Illuminating the canopy, strings of bobbing lanterns cast a soft, lambent glow from beneath hexagonal, translucent coverings. The periodic scuttle and call of the local wildlife resonates throughout the environs.", "area": "Eleusis", "environment": "Trees", "coords": "51,-3,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 2 9", "details": [  ], "exits": { "ne": 6742, "se": 6741, "w": 6739 } }
-GOT GMCP:
-Room.Players [ { "name": "Krucible", "fullname": "Tendril Krucible Distara, of the Yggdrasil" }, { "name": "Bail", "fullname": "Rootsworn Bail Le'Yuet, the Treegon" }, { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8998", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8998/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "95739", "name": "a runic totem", "icon": "rune" }, { "id": "246122", "name": "a forest archer", "icon": "guard", "attrib": "mx" }, { "id": "250215", "name": "a forest archer", "icon": "guard", "attrib": "mx" }, { "id": "255825", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "275881", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "319966", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "22713", "name": "a glitterlight butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6742, "name": "Upon the Oaken Way", "desc": "Weaving between a group of hickory trees, larger branches twist and encircle each other here, creating the main walkway through Eleusis. Despite being high above ground level, several blackberry bushes creep amongst the entangled growth, their thorns threatening to scratch any who pass carelessly by. Fluffy, deep green mosses flourish in darkened crevices, taking advantage of pooled water caught between the entwined branches. Below, a field is visible within the village to the north, where long heads of wheat bob about in unison, dancing with the much smaller blades of emerald grass.", "area": "Eleusis", "environment": "Trees", "coords": "51,-1,2,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 4 7", "details": [  ], "exits": { "se": 6743, "sw": 6740 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8996", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8996/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Redirect.Window "map"
-GOT GMCP:
-Redirect.Window "main"
-GOT GMCP:
-Char.Items.List { "location": "room", "items": [ { "id": "236517", "name": "a runic totem", "icon": "rune" }, { "id": "307024", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "307788", "name": "a Briar Knight", "icon": "guard", "attrib": "mx" }, { "id": "342746", "name": "a veiled enchantress", "icon": "guard", "attrib": "mx" }, { "id": "361788", "name": "a gnarled treekin", "icon": "guard", "attrib": "mx" }, { "id": "373466", "name": "a woodland ranger", "icon": "guard", "attrib": "mx" }, { "id": "525665", "name": "a monolith sigil", "icon": "rune", "attrib": "t" }, { "id": "126398", "name": "a green-dyed leather quiver", "icon": "clothing", "attrib": "t" }, { "id": "163389", "name": "a golden emperor butterfly", "icon": "animal", "attrib": "m" }, { "id": "126516", "name": "a red admiral butterfly", "icon": "animal", "attrib": "m" }, { "id": "155984", "name": "an indigo nightfire butterfly", "icon": "animal", "attrib": "m" } ] }
-GOT GMCP:
-Room.Info { "num": 6743, "name": "Split on the Oaken Way", "desc": "Three branches lead away from here in a Y-junction. The northwest leads to the gates of the village, and to the east is a straight long route into the heart of Eleusis. Southward, you see a vine-tangled trail twisting away through the trees, house lanterns dotting the forest with their soft glows. The occasional villager passes by carrying water home from the village well, or heading into the town proper on errands.", "area": "Eleusis", "environment": "Trees", "coords": "51,1,0,1", "map": "www.achaea.com/irex/maps/clientmap.php?map=51&building=0&level=1 6 9", "details": [  ], "exits": { "e": 6749, "s": 6744, "nw": 6742 } }
-GOT GMCP:
-Room.Players [ { "name": "Sllide", "fullname": "Sapling Sllide" } ]
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "8994", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:8994/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Vitals { "hp": "2020", "maxhp": "2020", "mp": "2039", "maxmp": "2080", "ep": "9000", "maxep": "9000", "wp": "8355", "maxwp": "8355", "nl": "99", "bal": "1", "eq": "1", "vote": "1", "string": "H:2020/2020 M:2039/2080 E:9000/9000 W:8355/8355 NL:99/100 ", "charstats": [ "Bleed: 0", "Rage: 0", "Spec: Two Handed" ] }
-GOT GMCP:
-Char.Status { "xprank": "1672" }
-GOT GMCP:
-Room.RemovePlayer "Sllide"
-GOT GMCP:
-Char.Defences.Remove [ "mosstattoo" ]
-GOT GMCP:
-Core.Goodbye "Farewell, adventurer."
+Core.Goodbye "Your character has logged in elsewhere."

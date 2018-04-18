@@ -14,7 +14,7 @@ class World(object):
         self.status = {}
         self.vitals = {}
         self.icons = {
-            'humanoid': u'﭂',
+            'humanoid': u'',
             'animal': u'',
             'plant': u'',
             'mineral': u'ﱦ',
@@ -30,7 +30,7 @@ class World(object):
             'guard': u'ﲅ',
             'lamp': u'﮳',
             'magical': u'',
-            'curative': u'',
+            'curative': u'',
             'monster': u'ﯙ',
             'deadbody': u'ﮊ',
             'food': u'ﴨ',
@@ -44,6 +44,7 @@ class World(object):
             'player': u'',
             'profile': u'',
             'rune': u'',
+            'commodity': u'',
         }
 
     def onConnect(self, manager):
